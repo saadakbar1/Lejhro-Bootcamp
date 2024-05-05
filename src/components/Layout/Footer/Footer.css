@@ -1,0 +1,38 @@
+.footer-container {
+  border-top: 10px solid #d92e2e;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 40px 0;
+}
+
+.list-unstyled {
+  margin-left: 0;
+}
+
+.list-unstyled li {
+  margin-top: 15px; 
+}
+
+.list-unstyled li a {
+  color: #161616;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.list-unstyled li a:hover {
+  color: rgb(240, 63, 63);
+}
+.social-icon {
+  margin-right: 10px; /* Adjust this value as needed */
+}
+.social-icon:hover {
+  color: #dd3b30; /* Hover color */
+}
+hr {
+  border: none;
+  border-top: 2px solid #000; 
+  margin-left: 140px;/* Adjust the color as needed */
+}
+.container text-centerr{
+  margin-right: 800px;
+}

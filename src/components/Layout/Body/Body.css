@@ -1,0 +1,175 @@
+
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 580px;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* Adjust the height as needed */
+}
+
+.card-content {
+  background-color: #3a3632;
+  color: white;
+  padding: 40px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px; /* Set the width of the card */
+  height: 400px; /* Set the height of the card */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: center; /* Space content evenly */
+}
+
+.carousel-wrapper {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.card-content img {
+  max-width: 50%; /* Set the maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image round */
+  margin-right: auto; /* Align the image to the right */
+}
+/* Add this CSS for column layout */
+/* Update CSS to make background color black and font color white for columns */
+.columns {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black;  */
+}
+
+.column {
+  margin-bottom: 20px; /* Adjust margin between columns if needed */
+ /* Set background color to black */
+  color: white; /* Set font color to white */
+}
+
+.column h5,
+.column p {
+  color: white; /* Set font color to white */
+}
+.black-div{
+  background-color: black;
+  color:white;
+}
+.slick-slider .slick-dots li button:before {
+  color: black !important; /* Set the color of dots to black */
+}
+.black-div h1 {
+  margin-left: 50px;
+  padding-top: 20px; /* Adjust the margin-left as needed */
+}
+.black-div h6 {
+  margin-left: 50px; /* Adjust the margin-left as needed */
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 calc(33.33% - 20px); /* Adjust the width of each column */
+  margin-right: 20px; /* Adjust the spacing between columns */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.column:last-child {
+  margin-right: 0; /* Remove margin from the last column */
+}
+.black-div {
+  background-color: #3a3632;
+  color: white;
+  padding-top: 20px; /* Adjust padding as needed */
+}
+
+.table-heading {
+  margin-bottom: 10px; /* Adjust spacing between table heading and h3 */
+}
+
+.advantages-table {
+  padding-top: 50px;
+  margin-top: 30px;
+  width: 100%;
+  margin-left: 120px;
+  
+}
+
+.advantage-heading {
+  margin-bottom: 5px; /* Adjust spacing between advantage heading and paragraph */
+  font-weight: bold;
+}
+.advantage-paragraph {
+  max-width: 200px; /* Adjust the maximum width as needed */
+  word-wrap: break-word; /* Allow words to break if they exceed the maximum width */
+}
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Adjust as needed */
+}
+
+.image-row img {
+  width: calc(12% - 5px); /* Adjust the width and margin based on your design */
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.al{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.boot{
+  background-color: rgb(235, 234, 234);
+}
+.all{
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+.boot .image-row{
+  margin-left: 50px;
+  border-radius: 25px;
+}
+.boot .image-row img {
+  border-radius: 10px; /* Rounded corners */
+  width: 240px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  padding-bottom: 20px;
+}
+.enterprise{
+  background-color: #3a3632;
+  color:white;
+  padding-bottom: 20px;
+}
+.enterprise-heading{
+  margin-left: 130px;
+  padding-top: 50px;
+}
+.enterprise-paragraph{
+  margin-left: 130px;
+}
+.exploree {
+  background-color:  #dd3b30;
+  color: white;
+  margin-top: 30px;
+  margin-left: 130px;
+  margin-bottom: 60px;
+  border: 2px solid #3a3632;
+
+}

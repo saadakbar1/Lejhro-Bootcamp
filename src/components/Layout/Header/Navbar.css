@@ -1,0 +1,157 @@
+.header-container {
+  background-color: #dd3b30;
+}
+.img-logo{
+  margin-right: 20px;
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  padding: 20px;
+  margin-left: -40px;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-item {
+  margin-right: -10px;
+  font-weight: bold;
+  
+}
+.btn
+{
+  margin-right: 400px;
+  border-radius: 0;
+  padding: 10px 30px;
+}
+
+
+.header-text {
+  color: white;
+  padding: 40px 40px;
+  font-size: 50px;
+  margin-left: 100px;
+}
+.nav-link {
+  color: #dd3b30;
+}
+.banner
+{
+  margin-left: 150px;
+}
+.explore
+{
+  padding: 10px 30px;
+  margin-left: 200px;
+  margin-top: -31px;
+  margin-bottom: 20px;
+}
+.form-container {
+  width: 50%; /* Adjust the width as needed */
+  max-width: 500px; /* Set maximum width */
+  margin-left: auto; /* Align to the center horizontally */
+  margin-right: auto; /* Align to the center horizontally */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 5px;
+  background-color: white; /* Set background color to white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to create a card effect */
+  align-items: center;
+ 
+}
+.book{
+  justify-content: center;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  text-align: center;
+}
+.table-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Increase the margin */
+}
+
+.table-heading {
+  font-weight: bold;
+  margin-right: 20px; /* Adjust the margin */
+}
+
+.table-content {
+  flex-grow: 1;
+  margin-left: 40px; /* Adjust the margin */
+}
+.a72{
+  margin-left: 70px;
+}
+.a200{
+  margin-right:90px;
+}
+.atop1{
+  margin-left: -15px;
+}
+.cardd {
+  margin-top: 60px; 
+  padding-bottom: 20px;/* Adjust the value as needed */
+}
+
+.btn-submit {
+  background-color: #eabc27;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 20px;
+  width: auto;
+  margin-top: 10px;
+  white-space: nowrap;
+  margin-left: 120px;
+  /* Center button content horizontally */
+}
+.para{
+  color:  #dd3b30;
+  margin-left: 180px;
+  white-space: nowrap;
+}
+/* Optional: Add hover effect */
+.btn-submit:hover {
+  background-color: white;
+  color: black; /* Ensures text color is visible */
+  
+}
+.live {
+  background-color: #d6932c;
+  color: white;
+ 
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 8px 20px;
+  font-size: 14px; /* Adjust font size */
+}
+
+/* Add black border */
+.live.btn-submit {
+  border: 1px solid black;
+}
+
+/* Optional: Add hover effect */
+.live:hover {
+  background-color: white;
+}
+.bootcamp-heading{
+  color:white;
+  margin-left: 160px;
+  margin-bottom: -40px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .navbar .nav-item-hide {
+    display: none; 
+  }
+}
