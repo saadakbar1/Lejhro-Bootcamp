@@ -36,3 +36,8 @@ hr {
 .container text-centerr{
   margin-right: 800px;
 }
+@media (max-width: 768px) {
+  hr{
+    margin-right: 140px;
+  }
+  }
