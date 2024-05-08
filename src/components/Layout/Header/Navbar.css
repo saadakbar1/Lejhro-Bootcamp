@@ -1,5 +1,6 @@
 .header-container {
   background-color: #dd3b30;
+ 
 }
 .img-logo{
   margin-right: 20px;
@@ -154,4 +155,44 @@
   .navbar .nav-item-hide {
     display: none; 
   }
+  .program
+  {
+    margin-right:10px;
+  }
+  .he3{
+    display: none;
+  }
+  .img-logo
+  {
+    height:20px;
+  }
+  .banner{
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+   }
+   .bootcamp-heading
+   {
+    margin-left: 40px;
+
+   }
+   .live{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+   }
+   .explore
+   {
+    margin-top: 10px;
+   }
+   .a72{
+    margin-left: 50px;
+   }
+   .atop1{
+    margin-left: -10px;
+   }
+   .a200{
+    margin-right:40px;
+   }
 }
