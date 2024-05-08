@@ -28,12 +28,12 @@ function App() {
             />
           </a>
           <a href="https://www.bootcamp.lejhro.com/data-science-course-training">
-            <button className="btn btn-outline-light nav-item">PROGRAMS</button>
+            <button className=" program btn btn-outline-light nav-item">PROGRAMS</button>
           </a>
           <ul className="nav justify-content-end">
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="he3 nav-link active"
                 aria-current="page"
                 href="https://www.bootcamp.lejhro.com/refer-and-earn"
                 style={{ color: "whitesmoke" }}
@@ -43,7 +43,7 @@ function App() {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="he3 nav-link active"
                 aria-current="page"
                 href="https://www.bootcamp.lejhro.com/events"
                 style={{ color: "whitesmoke" }}
@@ -53,7 +53,7 @@ function App() {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className=" he3 nav-link active"
                 aria-current="page"
                 href="https://www.bootcamp.lejhro.com/enterprise"
                 style={{ color: "whitesmoke" }}
@@ -62,7 +62,7 @@ function App() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#menu" onClick={toggleMenu}>
+              <a className="sidem nav-link" href="#menu" onClick={toggleMenu}>
                 <img
                   src={MenuLogo}
                   alt="MenuLogo"
@@ -88,7 +88,7 @@ function App() {
           />
         </div>
         <div className="form-container bg-white p-3 mb-3 mb-md-0">
-          <h2>Book a FREE Live Class!</h2>
+          <h2 className="bookk">Book a FREE Live Class!</h2>
           <form>
             <div className="row mb-3">
               <div className="col-md-6">
